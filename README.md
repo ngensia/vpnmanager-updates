@@ -5,7 +5,9 @@ This repository stores public release artifacts for VPN Manager.
 Download:
 
 - `VPN_MANAGER_SETUP.exe`
-- [Portable 1.3.10](VPN_MANAGER_Portable_1.3.10.zip)
+- [Portable 1.3.11](VPN_MANAGER_Portable_1.3.11.zip)
+
+Version 1.3.11 adds a per-user installation wizard with folder selection, optional Start menu and Desktop shortcuts, and optional launch after installation. Preferences are remembered for updates. It also introduces a refreshed light interface, a separate IT department settings button, and an additional network diagnostic target. ICMP results indicate network reachability, not a complete RDS service health check.
 
 Version 1.3.10 creates shortcuts in the employee's Start menu and Desktop using the native Windows Shell Link API, without WScript.Shell. Shortcut failures are reported with the application path. Uninstall removes both shortcuts.
 
